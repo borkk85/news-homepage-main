@@ -229,7 +229,11 @@ main {
   }
 
 @media screen and (max-width: 768px) {
-
+    header {
+        padding: 1.5rem 1rem;
+        position: relative;
+      }
+    
     .hero-section {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -257,9 +261,10 @@ main {
     
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   header {
     padding: 1.5rem 1rem;
+    position: relative;
   }
 
   header ul {
